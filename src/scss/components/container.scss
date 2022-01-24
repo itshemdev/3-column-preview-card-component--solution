@@ -1,0 +1,11 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    max-width: 920px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
