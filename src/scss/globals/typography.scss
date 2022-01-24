@@ -1,19 +1,28 @@
-
-body{
-	font-family: var(--inter-font);
+body {
+    font-family: var(--inter-font);
 }
 
 a,
 a:visited,
 a:active {
-	text-decoration: none;
+    text-decoration: none;
 }
 
-h1{
-	font-family: var(--big-shoulders--fnt);
+h1 {
+    font-family: var(--big-shoulders--fnt);
+    font-size: 40px;
+    text-transform: uppercase;
+
+    color: var(--very-light-gray--clr);
+}
+
+p {
+    color: var(--transparent-white--clr);
+    font-size: 15px;
+    line-height: 165%;
 }
 
 p,
 a {
-	font-family: var(--lexend-deca--fnt);
+    font-family: var(--lexend-deca--fnt);
 }
